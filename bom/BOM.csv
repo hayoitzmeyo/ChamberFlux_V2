@@ -1,8 +1,0 @@
-Item,Quantity,Specification,Required?,Notes
-Axial fan,2,FINAL FAN SIZE / VOLTAGE / MODEL TBD,Yes,Use identical fans unless documented otherwise
-Fan fasteners,TBD,M3 length TBD,Yes,Confirm screw access and thread strategy
-Pivot fasteners,TBD,M3 hardware TBD,Yes,Must hold angle under vibration
-Lever connectors,2,Appropriately rated,Optional,Shown in prototype; other insulated connectors may be used
-VHB tape,1 strip,Size TBD,Optional,Use only on clean compatible surfaces
-Magnets,TBD,Diameter and thickness TBD,Optional,Verify polarity and press-fit tolerance
-Zip ties,As needed,Width TBD,Optional,Use integrated mounting points
