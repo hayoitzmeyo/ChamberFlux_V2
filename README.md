@@ -57,11 +57,17 @@ It is intended to improve the frequency with which chamber air reaches the filte
 
 ChamberFlux was tested in a controlled enclosure using a Nevermore Micro filter under passive and actively recirculated conditions. The key result was that a 30 g carbon setup with the recirculation module yielded lower VOC levels than a setup using 60 g of carbon, showing that improving chamber airflow can be even more effective than higher carbon mass. 
 
-<p align="center">
-  <img src="media/figure2.png" alt="Passive carbon treatment results" width="31%">
-  <img src="media/figure3.png" alt="Active recirculation results" width="31%">
-  <img src="media/figure4.png" alt="Summary comparison metrics" width="31%">
-</p>
+<p align="center"> <img src="media/figure2.png" alt="SGP41 VOC-related sensor response" width="85%"> </p>
+
+<p align="center"> <em><strong>SGP41 response:</strong> This graph shows the relative change in VOC-related sensor signal compared with clean chamber air. The logarithmic scale means that each increase of 1 unit represents approximately twice the sensor response. Lower values indicate less VOC-related signal. The 30 g active condition remained below the 60 g passive condition during most of the 900-second extrusion period.</em> </p>
+
+<p align="center"> <img src="media/figure3.png" alt="BME688 comparative gas response" width="85%"> </p>
+
+<p align="center"> <em><strong>BME688 response:</strong> This is a second, independent comparative gas-sensor measurement derived from changes in the BME688 gas resistance. Lower plotted values indicate a smaller gas-response signal in this analysis. The BME688 showed the same general result as the SGP41, with active recirculation reducing the measured response.</em> </p>
+
+<p align="center"> <img src="media/figure4.png" alt="Chamber temperature during testing" width="85%"> </p>
+
+<p align="center"> <em><strong>Chamber temperature:</strong> Temperatures followed similar trends across the four conditions and reached approximately 34 °C by the end of extrusion. This indicates that the reductions in gas-sensor response under active recirculation were not simply caused by substantially different chamber temperatures.</em> </p>
 
 <details> <summary><strong>View testing details</strong></summary>
 
@@ -230,7 +236,7 @@ Do not overtighten the screws or crush the fan frames.
 1. Choose the left or right wiring exit.
 2. Route the fan leads through the integrated wire guides.
 3. Connect the fan leads using the desired wiring method.
-4. If using WAGO 221-2401 connectors, attach both sides of the wiring before sliding the connectors into the locking mounts.
+4. If using WAGO 221-2401 connectors, attach both sides of the wiring before sliding the connectors into the locking mounts. Ensure the two wire ends are twisted together beforehand
 5. Connect the assembly to a correctly rated power source or printer-board output.
 
 <p align="center">
