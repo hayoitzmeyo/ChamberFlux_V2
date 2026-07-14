@@ -9,8 +9,6 @@ ChamberFlux V2 is designed to improve bulk air transport inside printer enclosur
   <img src="media/render-back.png" alt="Rear render of ChamberFlux V2" width="47%">
 </p>
 
-> [Download the printable files on Printables](PRINTABLES_LINK_HERE)
-
 ---
 
 ## About ChamberFlux
@@ -22,9 +20,9 @@ It is designed to integrate with the filter already installed in your printer ra
 ChamberFlux:
 
 * improves air transport toward an existing filter;
-* reducing stagnant air regions;
+* reduces stagnant air regions;
 * supports low speed mixing;
-* maintains even chamber temperature 
+* distributes chamber heat more uniformly
 
 The design uses common 40 mm fans and minimal hardware. It supports several mounting methods, multiple pivot positions, different wiring setups, and both horizontal and vertical installation.
 
@@ -47,7 +45,7 @@ Adding more carbon increases adsorption capacity, but it does not automatically 
 
 ChamberFlux addresses this side of the problem, providing a robust solution to boost your existing setup.
 
-The fans used in chamber circulation against very little resistance, allowing them to move a larger volume of chamber air. They are not intended to push air through filter media. Instead, they circulate chamber air toward the working region of the existing filter while helping to regulate chamber temperature as well.
+The fans used for chamber circulation operate against very little resistance, allowing them to move a larger volume of chamber air. They are not intended to push air through filter media. Instead, they circulate chamber air toward the working region of the existing filter while helping to regulate chamber temperature as well.
 
 It is intended to improve the frequency with which chamber air reaches the filter, increasing effective chamber-scale removal without requiring a second carbon cartridge or a complete filtration-system replacement.
 
@@ -143,7 +141,7 @@ The WAGO system is optional. The fans may be connected using any correctly rated
 
 ### High-airflow axial fans
 
-The circulation system is designed around 40 mm axial fans that provide high unrestricted airflow. This makes them appropriate for bulk chamber circulation because there is not any resistance the fan has to push through.
+The circulation system is designed around 40 mm axial fans that provide high unrestricted airflow. This makes them appropriate for bulk chamber circulation because there is not any restrictive media the fan has to push through.
 
 <p align="center">
   <img src="media/prototype-front.jpg" alt="ChamberFlux mounted to aluminum extrusion" width="47%">
@@ -160,14 +158,12 @@ The entire assembly is simple and compact, requiring only 2 prints for a functio
 
 The only printed parts are the universal base plate, pivoting fan mount (Hex nut and heat-set insert version), and optional fan cover (Normal and low-profile version). 
 
-> [Download ChamberFlux V2 on Printables](PRINTABLES_LINK_HERE)
-
 ### Required hardware
 
 | Part                     | Quantity | Notes                                                                       |
 | ------------------------ | -------: | --------------------------------------------------------------------------- |
 | 40xx axial fans          |        2 | 4010, 4020, 4028, or another compatible 40 mm fan                           |
-| M3×6 mm or longer screws |        4 | Used for pivot/base attachment; exact length depends on configuration       |
+| M3×6 mm or longer screws |        2 | Used for pivot/base attachment; exact length depends on configuration       |
 | M3 hex nuts              |        2 | Required for the hex-nut pivot version                                      |
 | M3 heat-set inserts      |        2 | Used instead of hex nuts for the heat-set version                           |
 | M3 fan screws            |        4 | Length depends on fan model and whether the optional cover is installed |
@@ -236,7 +232,7 @@ Do not overtighten the screws or crush the fan frames.
 1. Choose the left or right wiring exit.
 2. Route the fan leads through the integrated wire guides.
 3. Connect the fan leads using the desired wiring method.
-4. If using WAGO 221-2401 connectors, attach both sides of the wiring before sliding the connectors into the locking mounts. Ensure the two wire ends are twisted together beforehand
+4. If using WAGO 221-2401 connectors, attach both sides of the wiring before sliding the connectors into the locking mounts. Ensure the two matching wire ends are twisted together beforehand
 5. Connect the assembly to a correctly rated power source or printer-board output.
 
 <p align="center">
