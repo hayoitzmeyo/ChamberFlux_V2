@@ -59,15 +59,15 @@ ChamberFlux was tested in a controlled enclosure using a Nevermore Micro filter 
 
 <p align="center"> <img src="media/figure2.png" alt="SGP41 VOC-related sensor response" width="85%"> </p>
 
-<p align="center"> <em><strong>SGP41 response:</strong> This graph shows the relative change in VOC-related sensor signal compared with clean chamber air. The logarithmic scale means that each increase of 1 unit represents approximately twice the sensor response. Lower values indicate less VOC-related signal. The 30 g active condition remained below the 60 g passive condition during most of the 900-second extrusion period.</em> </p>
+<p align="center"> <em><strong>SGP41 response:</strong> Relative change in VOC levels compared with clean chamber air. The logarithmic scale means that each increase of 1 unit represents approximately twice the sensor response. Lower values indicate less VOCs.</em> </p>
 
 <p align="center"> <img src="media/figure3.png" alt="BME688 comparative gas response" width="85%"> </p>
 
-<p align="center"> <em><strong>BME688 response:</strong> This is a second, independent comparative gas-sensor measurement derived from changes in the BME688 gas resistance. Lower plotted values indicate a smaller gas-response signal in this analysis. The BME688 showed the same general result as the SGP41, with active recirculation reducing the measured response.</em> </p>
+<p align="center"> <em><strong>BME688 response:</strong> Comparative gas-sensor measurement derived from BME688 gas resistance. Lower plotted values mean a smaller gas response signal.</em> </p>
 
 <p align="center"> <img src="media/figure4.png" alt="Chamber temperature during testing" width="85%"> </p>
 
-<p align="center"> <em><strong>Chamber temperature:</strong> Temperatures followed similar trends across the four conditions and reached approximately 34 °C by the end of extrusion. This indicates that the reductions in gas-sensor response under active recirculation were not simply caused by substantially different chamber temperatures.</em> </p>
+<p align="center"> <em><strong>Chamber temperature:</strong> Chamber temperature graph across the analysis interval.</em> </p>
 
 <details> <summary><strong>View testing details</strong></summary>
 
